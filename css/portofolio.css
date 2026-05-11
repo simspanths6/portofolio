@@ -1,0 +1,45 @@
+h1{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    font-size: 40px;
+    
+    background-color: #383838;
+}
+.pro a{
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.grid-post{
+    grid-gap:010px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.pro:hover{
+    width: 302px;
+    height: 302px;
+    margin: 0;
+}
+.pro:hover .travaux{
+    margin-left: 2px;
+}
+
+/*--bouton de projets suivant--*/
+
+.btn-pass{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btn-pass .suivant{
+    text-decoration: none;
+    color: #c4c4c4;
+    padding: 5px;
+}
+.btn-pass .suivant:hover{
+    border-top: 2px solid #c6c62a;
+}
+.btn-pass .suivant:active{
+    color: #383838;
+}
